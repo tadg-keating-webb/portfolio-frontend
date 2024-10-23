@@ -5,11 +5,13 @@
   <SkillsComponent />
   <PortfolioComponent />
   <ContactComponent />
+  <FooterComponent />
 </template>
 
 <script>
 import AboutComponent from './components/AboutComponent.vue';
 import ContactComponent from './components/ContactComponent.vue';
+import FooterComponent from './components/FooterComponent.vue';
 import HeroComponent from './components/HeroComponent.vue';
 import MenuComponent from './components/MenuComponent.vue';
 import PortfolioComponent from './components/PortfolioComponent.vue';
@@ -20,6 +22,7 @@ export default {
   components: {
     AboutComponent,
     ContactComponent,
+    FooterComponent,
     HeroComponent,
     MenuComponent,
     PortfolioComponent,

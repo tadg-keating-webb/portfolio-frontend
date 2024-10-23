@@ -1,10 +1,11 @@
 <template>
-   <!-- Contact Start -->
-   <section id="contact" class="text-slate-200  bg-secondary-500 body-font relative">
-        <div class="container px-5 py-24 mx-auto border-t-2 border-secondary-600 shadow-lg border-xl drop-shadow-lg">
+    <!-- Contact Start -->
+    <section id="contact" class="text-slate-200  bg-secondary-500 body-font relative">
+        <div class="container px-5 py-24 mx-auto border-t-2 border-secondary-600">
             <div class="flex flex-col text-center w-full mb-12">
                 <h2 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Contact Me</h2>
-                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Send me a message with your email and I will get back to you ASAP!</p>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Send me a message with your email and I will get
+                    back to you ASAP!</p>
             </div>
             <div class="lg:w-1/2 md:w-2/3 mx-auto">
                 <div class="bg-secondary-600 bg-opacity-40 p-6 rounded-lg h-full flex items-start">
@@ -44,11 +45,9 @@
 
 <script>
 export default {
-  name: 'ContactComponent',
+    name: 'ContactComponent',
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-
-</style>
+<style scoped></style>
