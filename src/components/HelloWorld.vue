@@ -1,17 +1,12 @@
 <template>
-  <span class="text-red-600">{{ msg }}</span>
+  <span class="text-red-600">Hello World</span>
 </template>
 
 <script>
 export default {
   name: 'HelloWorld',
-  props: {
-    msg: String
-  }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-
-</style>
+<style scoped></style>
