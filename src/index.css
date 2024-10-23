@@ -2,3 +2,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Swiper Slider Pagination bullet CSS */
+.swiper .swiper-pagination .swiper-pagination-bullet {
+    background-color: white;
+}
+
+/* Swiper Slider Pagination bullet Active CSS */
+.swiper .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #e60045;
+}
