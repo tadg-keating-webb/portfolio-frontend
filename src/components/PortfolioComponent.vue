@@ -11,7 +11,8 @@
         <div v-for="(item, index) in items" :key="index" class="xl:w-1/3 md:w-1/2 p-4">
           <a :href="item.demoUrl" target="_blank">
             <div class="bg-secondary-600 bg-opacity-40 p-6 rounded-lg shadow-lg">
-              <img class="h-40 rounded w-full object-cover object-center mb-6 hover:scale-105 duration-500" src=""
+              <img :src="'data:image/png;base64,' + item.image"
+                class="h-40 rounded w-full object-cover object-center mb-6 hover:scale-105 duration-500"
                 alt="content" />
               <h2 v-text="item.title" class="text-lg text-slate-200 font-medium title-font mb-4"></h2>
               <p v-text="item.description" class="leading-relaxed text-base text-wrap"></p>
@@ -31,7 +32,7 @@ export default {
   name: 'PortfolioComponent',
   setup() {
     const items = ref([]);
-    const apiUrl = process.env.VUE_APP_API_URL;
+    const apiUrl = process.env.VUE_APP_API_URL + 'portfolio';
     console.log(apiUrl)
 
     const loadItems = async () => {
